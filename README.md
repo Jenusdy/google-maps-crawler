@@ -37,7 +37,6 @@ This project crawls and processes data to extract their locations using the Goog
    ```bash
    pip install -r requirements.txt
    ```
-4. Set up your Google Maps API key in a `.env` file or `config.json` (not committed to git)
 
 ## Usage
 
