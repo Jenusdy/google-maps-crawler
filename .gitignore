@@ -61,6 +61,10 @@ venv/
 ENV/
 env/
 
+
+# Test
+test/
+
 # IDE
 .vscode/
 .idea/

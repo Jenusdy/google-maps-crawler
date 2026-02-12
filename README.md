@@ -1,4 +1,4 @@
-# Google Maps API - School Points Crawler
+# Google Maps Crawler -  Points Crawler
 
 A data crawling project Google Maps to identify and collect geographic coordinates.
 
@@ -12,13 +12,6 @@ This project crawls and processes data to extract their locations using the Goog
 ├── Crawling-Points.ipynb       # Main Jupyter notebook with crawling logic
 ├── input/                       # Input data directory
 │   └── Flat_sekolah_terdampak.csv
-├── output/                      # Generated output directory
-│   └── Flat_sekolah_terdampak.csv
-├── test/                        # Test HTML files for validation
-│   ├── found-exact-one.html
-│   ├── found-many.html
-│   ├── klik-hasil.html
-│   └── not-found.html
 ├── .gitignore                   # Git ignore rules
 └── README.md                    # This file
 ```
@@ -31,7 +24,6 @@ This project crawls and processes data to extract their locations using the Goog
   - requests
   - pandas
   - beautifulsoup4
-  - (Google Maps API Python client or similar)
 
 ## Setup
 
@@ -49,28 +41,18 @@ This project crawls and processes data to extract their locations using the Goog
 
 ## Usage
 
-Run the Jupyter notebook to crawl and process school location data:
-
-```bash
-jupyter notebook Crawling-Points.ipynb
-```
+Run the Jupyter notebook :
 
 The notebook will:
 - Read input data from `input/`
-- Query Google Maps API for school locations
-- Process and validate results
-- Output results to `output/`
-
-## Notes
-
-- API keys and credentials should **never** be committed to the repository
-- Use `.env` file or environment variables for sensitive configuration
-- Test HTML files are provided for validation purposes
+- Read for Google Maps Search
+- Process 
+- Output results to the same file
 
 ## License
 
-[Add your license here]
+MIT
 
 ## Author
 
-[Add author information here]
+JJ
