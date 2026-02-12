@@ -1,10 +1,10 @@
 # Google Maps API - School Points Crawler
 
-A data crawling project that uses the Google Maps API to identify and collect geographic coordinates for affected schools.
+A data crawling project Google Maps to identify and collect geographic coordinates.
 
 ## Overview
 
-This project crawls and processes data about schools to extract their locations using the Google Maps API. It handles data collection, geocoding, and storage of results.
+This project crawls and processes data to extract their locations using the Google Maps. It handles data collection, geocoding, and storage of results.
 
 ## Project Structure
 
