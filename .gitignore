@@ -87,11 +87,10 @@ config.json
 credentials.json
 
 # Generated files
-output/
 *.log
 
 .virtual_documents
 input/20260313 - SBR Jatinegara.csv
 input/*.csv
-
+output/*.csv
 proses/*.csv
